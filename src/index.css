@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 html, #root {
-    background-color: #E0E7FF;
+    background-color: #FEFBF6;
     text-align: center;
     margin: auto 0;
+    color: #B67352;
+    font-family: Playfair Display, serif;
 }
