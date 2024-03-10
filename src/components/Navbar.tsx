@@ -7,12 +7,17 @@ export default function Navbar() {
       {/* Logo */}
       <div>
         <Link to={"/"}>
+          <h3 className="font-bold pb-4 text-3xl md:text-5xl bg-gradient-to-r from-[#1D4EFE] to-[#1A8DF7] inline-block text-transparent bg-clip-text">
+            Prakalpa
+          </h3>
+        </Link>
+        {/* <Link to={"/"}>
           <img
             src={navbarLogo}
             alt="VESIT"
             className="text-3xl font-extrabold text-yellow-400 h-10 w-36 md:h-[44.4px] md:w-[181.2px]"
           />
-        </Link>
+        </Link> */}
       </div>
 
       {/* Search */}
